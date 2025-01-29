@@ -53,6 +53,7 @@ input{
 }
 
 button{
+    cursor: pointer;
     height: 50px;
     width: 80px;
     border: none;

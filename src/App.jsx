@@ -8,7 +8,6 @@ function App() {
     const[fromValue, setFromValue] = useState(0)
     const[toValue, setToValue] = useState(0)
 
-    console.log(toCurrency)
 
     useEffect(()=>{
       fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json')
@@ -69,7 +68,7 @@ function App() {
         </div>
         
           <br/>
-          <input className='bg-white' type='tel' value={toValue}></input>
+          <input className='bg-white' type='tel' value={toValue} disabled></input>
       </div> 
      
 
