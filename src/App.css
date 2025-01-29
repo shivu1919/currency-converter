@@ -1,0 +1,62 @@
+#parent{
+    row-gap: 20px;
+}
+
+#first{
+    width:500px;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+#second{
+    width:500px;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+label{
+    font-size: 22px;
+}
+
+select{
+    width:100px;
+    border-radius: 5px;
+    border: none;
+}
+
+#first_label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#second_label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+input{
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+}
